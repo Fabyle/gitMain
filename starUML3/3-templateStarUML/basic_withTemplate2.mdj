@@ -1,0 +1,78 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Base organisation",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Base organisation",
+			"ownedElements": [
+				{
+					"_type": "UMLPackage",
+					"_id": "PACKAGE_CELLULE",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Cellules",
+					"ownedElements": [ 
+						<templateCellule> 
+						],		
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "PACKAGE_UTILISATEURS",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "utilisateurs",
+					"ownedElements": [
+						<templateUtilisateur>
+						],					
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "PACKAGE_PROFIL_METIER",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "profils métier",
+					"ownedElements": [
+						<templateProfilMetier>
+					],		
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "PACKAGE_PROFIL_USAGE",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Profils usage",
+					"ownedElements": [
+							<templateProfilUsage>
+							],		
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "PACKAGE_ACTION",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Actions",
+					"ownedElements": [ 
+						<templateAction> 
+						],		
+					"visibility": "public"
+				}
+			],
+			"visibility": "public"
+		}
+	]
+}

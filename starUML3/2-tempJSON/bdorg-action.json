@@ -1,0 +1,3693 @@
+{
+   "_type": "UMLUseCase",
+   "_id": "action218",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-valider aide financière sociale",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action221",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-prescription d'un chèque",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action222",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-opposition d'un chèque",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action223",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-suppr prescription opposition",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action228",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-visualiser synthese sociale",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action229",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-valider contrat retraite",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action231",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-cellule fusion",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action232",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-spécificité affiliatiation prév",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action233",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-accepter ordonnancement",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action234",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérifier standard particulier",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action235",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation contrat prévoyance",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action236",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-spécificité radiation prév",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action237",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-spécificité maj affil prévoyance",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action238",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérifier éclatement carrière VIP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action239",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif ExamenCarrièreSuiviAffaire",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action240",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-déf. contenu dossier éch. PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action241",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-spécificité maj affil retraite",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action242",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-consult données confidentielles",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action243",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation PrisesSurFondsGestion",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action244",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation des profits",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action245",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-seuil valid ordo pour collectif",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action246",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-habilitation maj cpte ex ajusté",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action247",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif habilitation collectif ent",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action248",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif habilitation tiers juridiq",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action249",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-seuil validation ordo apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action250",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-seuil valid ordo tiers juridique",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action251",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-suspension plan de recouvrement",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action252",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-étape sensible",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action253",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-majDette+PositionnementTiersJuri",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action254",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj provision tiers juridique",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action255",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-consult désignation bénéficiaire",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action256",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-demande repaiement apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action257",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj administrative apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action258",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj administrative UP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action259",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj role UP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action260",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj relations UP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action261",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif habilitation autre tiers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action262",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérifier habilitation apporteurs",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action263",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-affil rattachement retraite",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action264",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-affil rattachement prévoyance",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action265",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-consulter rattachement",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action266",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-habilitation mandataire RU",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action267",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-données confidentielles apport.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action268",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-signature courriers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action269",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj contrat prév lourde (valid)",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action270",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-test gest conf (aff nouvelle)",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action271",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation contrat prév indiv",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action272",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation complément adh indiv",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action273",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-confidentialité visualisation",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action274",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-mutuelle ANEP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action275",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Param Validation Dossiers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action276",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Param Contrôle DossiersCourriers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action277",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vali Dos. Prest. Prev. FF Unique",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action278",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valid ord. IJ",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action279",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vali Dos. Prest. Prev. FF Périod",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action280",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vali Dos. Prest. Prev. FF Apério",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action281",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valid ord. Capital",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action282",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation droits échéance AGIRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action283",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. droits échéance AGIRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action284",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation droits échéance ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action285",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-valid. droits échéance chapeau",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action286",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. droits échéances ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action287",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. droits échéances chapeau",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action288",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérification droits rappel AGIRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action289",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérification droits rappel ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action290",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. droits rappel chapeau",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action291",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation droits rappel AGIRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action292",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation droits rappel ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action293",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-validation droits rappel chapeau",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action294",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-valider extinc. soldes indiv",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action295",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-seuil1 validation pour TDI",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action297",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. hab. pour prév. ind.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action298",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. hab. prest. prév. ff.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action299",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Enchaînement auto. des activités",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action300",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-déf. contenu dossier éch. PP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action301",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-déf. contenu dossier éch. Tiers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action302",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-seuil valid ordo pour prév indiv",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action303",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-valid. ordo. collec. mutue. anep",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action304",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérif. habilitation santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action305",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérifier gest. hab manip stocks",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action306",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-valid. exs gest. mutue. anep",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action307",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-seuil valid ordo prest prev sant",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action308",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Màj MPA pour Tiers Santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action309",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Dérogation AGIRC stagiaire cadre",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action310",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Maj CEDEX adr. de localisation",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action311",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Validation Ordo Apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action312",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vérification Ordo Apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action313",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-vérifier demande édition RC/EC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action314",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-maj des EFO et extinction solde",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action315",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Log. Valider ordo en Apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action316",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Log. Valider ordo en Collectif",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action317",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Log. Valider ordo en Prév.Indiv.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action318",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Log. Val ordo en Tiers Juridique",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action320",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-MAJ Modalité Prélèvement",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action321",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-MAJ Adresses",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action322",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Profil non habilité créer tiers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action323",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Clôture plan motif irrécouvrable",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action324",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Habilitation Modif NNI CERTIFIE",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000000",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Ajout PP dans CRM par Com.Indiv.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000001",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modif. conditions de validation",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000002",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Autoriser consult. SFO Apporteur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000003",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vérif. droits Terminer Tâche",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000004",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Confirmer Appel Fonds Collectif",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000005",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Confirmer Appel Fonds Prev Indiv",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000006",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Confirmer Appel Fonds Prest FF",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000007",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Confirm. Appel Fonds Prest Santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000008",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gérer revalorisat. contrat ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000009",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Maj Contrat ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000011",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Acces PRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000012",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion des CSM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000013",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Paramétrer données Produit",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000014",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-MAJ données Produit en prod.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000015",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visu. Info Personnel Interne",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000016",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Affect. pool ressources-PRC V1",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000018",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser infos courantes",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000019",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser infos gestion",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000020",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser historiques",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000021",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser synthèse prévoyance",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000022",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser synthèse Call Center",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000023",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Contrôler paiements délégataires",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000025",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Seuil valid dem PRC ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000026",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Seuil vérif dem PRC ARRCO",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000027",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Seuil validation dem PRC AGIRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000028",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Mise à jour Code CIP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000030",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Validation des ordonnancements t",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000031",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Val.mnt. decompte standard",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000032",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Val.mnt. decompte compl.a.payer",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000033",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Val.mnt.decompte trop-percu",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000034",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vérif habilit. pré-conten retr",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000035",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vérif habilit. pré-conten prev",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000036",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Mise à jour d'un compte collecti",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000037",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Infos courantes PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000038",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Infos gestions PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000039",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Synthèse comptable PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000040",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Historiques PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000041",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Etablissements PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000042",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Infos contractuelles",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000043",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Visualiser Recouvrem. PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000044",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Maj compte coll. en context Prev",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000045",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Appel ponct de cot-Mode DUCS Net",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000046",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Consultation Autres Corbeilles",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000048",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Réouverture dossier prestation",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000049",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Outil consult corbeilles PRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000050",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Affect.pool de ressources Bayard",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000053",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valider facture délégataire",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000054",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Créer Modifier Tiers réassureur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000055",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Créer Modifier TraitéRéassurance",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000056",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modif montants de cal de regul",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000057",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion paramêtres DUCS",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000058",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion paramètres Acoss",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000059",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modification code VIP",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000060",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Accès Corbeille globale",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000061",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Accès outil transfert planifié",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000062",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Decochage Centre Payeur",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000063",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Affect. pool de ressources GDA",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000064",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Validation demande de remboursem",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000065",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Validation ligne demande de remb",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000066",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Exec réelle demande apurement",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000067",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Accès PRC-IA",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000068",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Seuil valid ordo pour reass",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000069",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Aff. Nouv. sur Refus Competence",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000070",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Val. Dos. Prest. Prev. ApérioETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000071",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Val. Dos. Prest. Prev. PériodETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000072",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Val. Dos. Prest. Prev. UniqueETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000074",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Edition courr. Alloc. Suivi",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000075",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Edition courr. Alloc. GPS",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000076",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Seuil valid ordo pour GDL",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000077",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion hors ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000078",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000079",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valid ord. IJ ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000080",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valid ord. Capital ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000081",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion paramètres AGFF CET APEC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000082",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Création PP PM",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000083",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Habilitation MAJ Compte ACOSS",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000084",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-DESARCHIVAGE CARRIERE",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000085",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Extraction Images GED",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000086",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Forçage salaire apprenti",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000087",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gérer Mouvement Télétransmission",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000088",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gestion tiers déclarants",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000089",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modif. date début LC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000090",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Validation cotisation GDEL",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000091",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Masquage du NNI",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000092",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Acces vue regroupee prev",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000093",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Saisir dette indu Prest. Prev.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000094",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Saisir dette eng. Prest. Prev.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000095",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Saisir dette indu Prest. Santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000096",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Saisir dette eng. Prest. Santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000097",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Réviser affectation Prest. Prev.",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000098",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valid ord. Rente",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000099",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Valid ord. Rente ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000100",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modification date réelle",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000101",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Conseiller RC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000102",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2-Corresp. de gestion",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000103",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2- Réversion remariage",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000104",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2- Suivi allocataires",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000105",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2- Prélèvement suspension",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000106",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2-Social",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000107",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Responsable Call Escalade",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000108",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 LP228",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000109",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Prestation santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000110",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Production individuelle",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000111",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Reunica N2 Prod Bayard",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000112",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Production Collective",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000113",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Prévoyance NTT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000114",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Prévoyance Hors ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000115",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Prévoyance ETT",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000116",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GN2 Prévoyance globale",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000117",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Visualiser echange tt métier",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000118",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Impression local echange",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000119",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Annulation echange",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000120",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Enrichissement echange",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000121",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Duplicata echange",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000122",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Duplicata echange tt métier",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000123",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Metier Commercial",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000124",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Metier Relation client",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000125",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Metier Social",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000126",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Metier Retraite",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000127",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-BUG Metier Prevoyance/Santé",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000128",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-V360 Accueil Physique",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000129",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Mise à jour Télérèglement DUCS",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000130",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Affect pool de ressources GDA UR",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000131",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Acces PRC en Consultation",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000132",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Vérif hab contentieux prévoyance",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000133",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Ap ponct de cot-Mode DUCS Net Pr",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000134",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Rechercher",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000135",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Presse Papier Groupe",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000136",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Contact sans rattachement",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000137",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Recherche historisée",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000138",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Vue 360",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000139",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Ses courriers",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000140",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Son dossier GED",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000141",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Ses réclamations",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000142",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Ses préférences",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000143",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Ses données administratives",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000144",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Fiche d'indexation",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000145",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Saisie d'un contact",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000146",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Gest. collab. à traiter",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000147",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Bureautique à traiter",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000148",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC GED à traiter",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000149",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Réclamations à traiter",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000150",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Fonction CTI",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000151",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Fonction Kodak Imaging",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000152",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Fonction CTI multi appels",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000153",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Arbre des fonctions",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000154",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Barre d'outils",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000155",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Barre d'identification",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000156",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Fonction d'authenfication",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000157",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-REQUET_UR-Annulation Flux PRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000158",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Validation ordo tiers prév",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000159",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Seuil validation ordo tiers prév",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000160",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-MAJ illimitée blocs-notes PRV",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000161",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gest. Inscription Ducs Retraite",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000162",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Gest. Inscription Ducs Prev",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000163",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GUG - GED Export PRC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000164",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GUG - GED Export CNAV",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000165",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Extractions DN a Traiter",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000166",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Acces corbeille Delégué",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000167",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modification PM Non Migrée",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000168",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Modification PM Non Migrable",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000169",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GUG - GED Export PRC Auto",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000170",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GUG - GED Export PRC Manuel",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000171",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Affect. pool ressources-PRC V2",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000172",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GUG - GED Activité Social",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000173",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Raccourcis ALLOC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000174",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Raccourcis ADHPAR",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000175",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Raccourcis PREV",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000176",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Raccourcis RC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000177",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ICL - Acces Identifier Client",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000178",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Masquer Remboursement Entreprise",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000179",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Raccourcis Retraite",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000180",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Gestionnaire",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000181",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC Hors Gestionnaire",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000182",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-NUM - Appli Logistique",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000183",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-NUM - Appli Logistique Resp",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000184",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-NUM - Gestion Rejets",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000185",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-NUM - Gestion PND",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000186",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Consultat. ASC Tiers REA-DLG-PRV",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000187",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Marquage Renfort RC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000188",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-ESIC-Modif date clôture réclama",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000189",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Affect. pool ressources-PRC V0",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000190",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-GUG - GED Export MCPD",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000191",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Responsable externe RC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000192",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Responsable RC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+},{
+   "_type": "UMLUseCase",
+   "_id": "action10000193",
+   "_parent": {
+      "$ref": "PACKAGE_ACTION"
+   },
+   "name": "undefined-Conseiller externe RC",
+   "ownedElements": [],
+   "stereotype": "action",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+}
