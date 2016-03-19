@@ -1,0 +1,211 @@
+{
+   "_type": "UMLUseCase",
+   "_id": "cellule100129",
+   "_parent": {
+      "$ref": "PACKAGE_CELLULE"
+   },
+   "name": "CRC32",
+   "ownedElements": [
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurGIRARDJ",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurGIRARDJ"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurBLOCHET",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurBLOCHET"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurBOURIN",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurBOURIN"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurBRAYA",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurBRAYA"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurCOLAISSEAU",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurCOLAISSEAU"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurDUBOISJ",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurDUBOISJ"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurVANDENBROCKE",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurVANDENBROCKE"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurMAHEE",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurMAHEE"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurNOCENTE",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurNOCENTE"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurGASRAOUI",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurGASRAOUI"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurLETOURNEUR",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurLETOURNEUR"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurLORMEAU",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurLORMEAU"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurPERRONET",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurPERRONET"
+         },
+         "visibility": "public"
+      },
+      {
+         "_type": "UMLDependency",
+         "_id": "cellule100129->utilisateurMAROQUIN",
+         "_parent": {
+            "$ref": "cellule100129"
+         },
+         "source": {
+            "$ref": "cellule100129"
+         },
+         "target": {
+            "$ref": "utilisateurMAROQUIN"
+         },
+         "visibility": "public"
+      }
+   ],
+   "stereotype": "cellule",
+   "visibility": "public",
+   "isAbstract": false,
+   "isFinalSpecialization": false,
+   "isLeaf": false
+}

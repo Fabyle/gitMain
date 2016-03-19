@@ -1,0 +1,55 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Base organisation",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "MODELE_UTILISATEURS",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Utilisateurs",
+			"ownedElements": [
+			<templateUtilisateur>
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "MODELE_PROFIL_UTILISATEURS",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Profils utilisateur",
+			"ownedElements": [
+			<templateProfilUtilisateurs>
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "MODELE_PROFIL_METIER",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Profils métier",
+			"ownedElements": [
+			<templateProfilMetier>
+			],			
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "MODELE_PROFIL_USAGE",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Profils d'usage",
+			"ownedElements": [
+			<templateProfilUsage>
+			],				
+			"visibility": "public"
+		}
+	]
+}
