@@ -1,0 +1,11 @@
+{
+  "name": "try_neo4J",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+	  "request": "2.71.0"
+  }
+}
