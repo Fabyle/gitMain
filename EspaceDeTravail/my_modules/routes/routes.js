@@ -37,7 +37,7 @@ var appRouter = function(app){
 	// soit toutes la liste
 	// soit vérifiant un critères
 	//  http://localhost:3000/v1/applications
-	// http://localhost:3000/v1/applications?nom_application=ESIC
+	// http://localhost:3000/v1/applications?nom=esic
 	// ==================================================
 	app.get('/v1/applications',
 			applications.getApplications);
