@@ -30,24 +30,25 @@ var appRouter = function(app){
 	app.post("/v1/utilisateur_courant",
 			utilisateurs.putCourant);
 	
+	
 	// ==================================================
-	// Le get applications
-	// avec une expression régulière permettant d'avoir les urls suivantes
-	// http://localhost:3000/v1/applications
+	// Le get applications ( mode liste )
+	// permet de retourner une liste d'application
+	// soit toutes la liste
+	// soit vérifiant un critères
+	//  http://localhost:3000/v1/applications
 	// http://localhost:3000/v1/applications?nom_application=ESIC
 	// ==================================================
-	app.get(/v1\/applications.*/,
+	app.get('/v1/applications',
 			applications.getApplications);
 	
-	
 	// ==================================================
-	// Le get applications avec expression régulière pour trouver 
-	// une application en particulier
-	// http://localhost:3000/v1/applications/?nom_application=ESIC
+	// Le get applications pour une application en particulier ( mode unitaire )
+	// on doit fournir l'id de l'application
+	// http://localhost:3000/v1/applications/00001
 	// ==================================================
-	//app.get(,
-	//		applications.getApplication);
-	
+	app.get('/v1/applications/:id',
+			applications.getApplication);	
 	
 }
 
