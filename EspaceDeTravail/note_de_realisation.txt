@@ -1,0 +1,5 @@
+// ==================================================
+	// Le get applications avec expression régulière pour l'exemple
+	// ==================================================
+	//	app.get(/v1\/applications.*/,
+	//	applications.getApplications);
