@@ -6,8 +6,9 @@ var applications = new ArrayList;
 applications.add({ 	"id"				:	"00001",
 					"nom" 				: "visiocap",
 					"configurations" 	: {
-						"urlCTG"	: 	"http://toto",
-						"log"		:	"c:log.txt"
+						"url_ctg"			: 	"http://srvctgrec/wspasserellerec/services/ctg",
+						"url_habilitation"	: 	"http://WSHABil/v3/wshab.asmx",
+						"log"				:	"c:\log.txt"
 					}});
 					
 applications.add({ 	"id"				:	"00002",

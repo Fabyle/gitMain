@@ -1,7 +1,21 @@
+ /* ---------
+	char   szIDUTI[9];  // Identifiant utilisateur
+       char   szLBUTI[33]; // Libelle utilisateur
+       char   szCOPROF[3]; // Code profil
+       char   szCODEL[9];  // Code delegation
+       char   szIDSTA[15]; // Nom netbios de la station
+       char   szINSEC[3];  // Indice de securite
+       char   szIDSOC[3];  // Identifiant societe
+       char   szIDMES[7];  // Identifiant messagerie
+       char szEspaddon[5]; // Identifiant Espaddon
+       char szIdEnv[10];   // Identifiant Environnement
+---------*/
+
+
 var utilisateurCourant = {
 			"nom" 		: "Lemoine",
-			"prenom" 	: "Fabien"
-		};
+			"prenom" 	: "Fabien",
+			};
 
 // ==================================================
 // le get de l'utilisateur courant
