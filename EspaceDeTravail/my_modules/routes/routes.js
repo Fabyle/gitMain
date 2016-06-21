@@ -32,11 +32,21 @@ var appRouter = function(app){
 	
 	// ==================================================
 	// Le get applications
+	// avec une expression régulière permettant d'avoir les urls suivantes
 	// http://localhost:3000/v1/applications
 	// http://localhost:3000/v1/applications?nom_application=ESIC
 	// ==================================================
-	app.get("/v1/applications",
+	app.get(/v1\/applications.*/,
 			applications.getApplications);
+	
+	
+	// ==================================================
+	// Le get applications avec expression régulière pour trouver 
+	// une application en particulier
+	// http://localhost:3000/v1/applications/?nom_application=ESIC
+	// ==================================================
+	//app.get(,
+	//		applications.getApplication);
 	
 	
 }
