@@ -1,8 +1,10 @@
 // Le module de routage des flux http
-var utilisateurs = require("./utilisateurs")
+var utilisateurs = require("./utilisateurs"),
+	applications = require("./applications");
 
 // ==================================================
 // Gestion des requetes http
+//  on fait le choix d'utiliser le snake case pour la forme des URLs avec _
 // ==================================================
 var appRouter = function(app){
 	
@@ -15,16 +17,28 @@ var appRouter = function(app){
 	})
 	
 	// ==================================================
-	// Le get de l'utilisateur courant
+	// Le get de l'utilisateur courant ( utiliser le snake case avec _ )
+	// http://localhost:3000/v1/utilisateur_courant
 	// ==================================================
-	app.get("/v1/utilisateurs/courant",
+	app.get("/v1/utilisateur_courant",
 			utilisateurs.getCourant);
 	
 	// ==================================================
-	// Le put de l'utilisateur courant
+	// Le post de l'utilisateur courant
+	//
 	// ==================================================
-	app.post("/v1/utilisateurs/courant",
+	app.post("/v1/utilisateur_courant",
 			utilisateurs.putCourant);
+	
+	// ==================================================
+	// Le get applications
+	// http://localhost:3000/v1/applications
+	// http://localhost:3000/v1/applications?nom_application=ESIC
+	// ==================================================
+	app.get("/v1/applications",
+			applications.getApplications);
+	
+	
 }
 
 //==================================================
