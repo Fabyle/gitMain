@@ -18,10 +18,12 @@ applications.add({ 	"id"				:	"00002",
 						}});
 
 //==================================================
-//le get la liste des applications
+//Permet d'avoir une liste d'application
 //==================================================
 var getApplications = 
 	function (req, res){
+	
+		console.log(req);
 		if (!req.query.nom)
 			{// le nom de l'application n'est pas renseigné
 			// on retourne toutes les applications
@@ -38,12 +40,22 @@ var getApplications =
 		
 	};
 	
+//==================================================
+//Permet d'avoir une liste d'application
+//==================================================	
 var getApplication = 
 	function (req, res){
 	if (!req.query.nom_application) 
 		{// le nom de l'application n'est pas renseigné
 		// on retourne toutes les applications
-		res.send(applications);	
+		element = applications.findOne(function (application){
+			console.log (req.path);
+			splitted = new ArrayList();
+			splitted.add(req.path.split("/"));
+			console.log (splitted.last());
+			return application.id===splitted.last();
+		})
+		res.send(element);	
 		}
 };
 	
