@@ -5,11 +5,13 @@
 
 var 
 	express = require("express"),
-	bodyParser = require("body-parser");
+	bodyParser = require("body-parser"),
+	path = require("path");
 
 var monApplication = express();
 
 // paramètrage de l'application
+monApplication.use(express.static(path.join(__dirname, 'public')));
 monApplication.use(bodyParser.json());
 monApplication.use(bodyParser.urlencoded( { extended: true }));
 
