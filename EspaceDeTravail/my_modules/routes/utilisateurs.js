@@ -12,7 +12,7 @@ var getCourant =
 	};
 	
 // ==================================================
-// le get de l'utilisateur courant
+// le post de l'utilisateur courant
 // retourne un 201 - 
 // ==================================================
 var putCourant = 
