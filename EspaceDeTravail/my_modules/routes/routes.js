@@ -1,6 +1,6 @@
 // Le module de routage des flux http
-var utilisateurs = require("./utilisateurs"),
-	applications = require("./applications");
+var utilisateurs = require("../business/utilisateurs"),
+	applications = require("../business/applications");
 
 // ==================================================
 // Gestion des requetes http
