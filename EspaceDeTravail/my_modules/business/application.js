@@ -14,7 +14,7 @@ applications.add({ 	"id"				:	"00001",
 					"fournisseur"		: new fournisseur.fournisseur(),
 					"configuration" 	: new configuration.esic(),
 					"etat"				: new application_etat.inconnu(),
-					"notations"			: new notation.notation(utilisateur.getCourant()) });
+					"notations"			: new notation.notation(utilisateur.get_courant()) });
 					
 applications.add({ 	"id"				:	"00002",
 					"nom" 				: "esic",
@@ -23,40 +23,22 @@ applications.add({ 	"id"				:	"00002",
 					"configuration" 	: new configuration.visiocap(),
 					"etat"				: new application_etat.inconnu()});
 
-//==================================================
-//Permet d'avoir une liste d'application
-//==================================================
-var getApplications = 
-	function (req, res){
-	
-		if (!req.query.nom)
-			{// le nom de l'application n'est pas renseigné
-			// on retourne toutes les applications
-			res.send(applications);	
-			}
-		else {
-			// le nom de l'application est renseigné
-			// on retourne les applications vérifiant ce nom.
-			sousListe = applications.find (function (application){
-				return application.nom === req.query.nom;
-			})
-			res.send(sousListe);
-		}
-		
-	};
-	
-//==================================================
-//Permet d'avoir une application
-//==================================================	
+
+/* --------------------------
+ * methode qui fournit toutes les applications
+ */
+
+var get_applications = function (){
+	return applications;
+}
+
+
+/*-------------------------
+ * methode qui recherche une application selon son id
+ */
+
 var get_application = 
-	function (req, res){
-		element = basic_get_application(req, res);
-		res.send(element);		
-};
-
-
-var basic_get_application = 
-	function (req, res){
+	function (req){
 	element = applications.findOne(function (application){
 		splitted = new ArrayList();
 		splitted.add(req.path.split("/"));
@@ -68,20 +50,21 @@ var basic_get_application =
 	return element;
 };
 
-//==================================================
-//Permet de changer le status de l'application 
-//==================================================	
-var change_etat = 
-	function (req, res){
-		element = basic_get_application(req, res);
-		element.etat = new application_etat.a_demarrer();
-		res.send(element);		
-};
-	
+/*-------------------------
+ * methode qui change l'état
+ */
+var patch_application_etat = 
+	function(req){
+	element = get_application(req);
+	element.etat = new application_etat.a_demarrer();
+}
+
+
 
 //==================================================
 //Les exports
 //==================================================
-exports.getApplications = 	getApplications;
+exports.get_applications = get_applications;
 exports.get_application = 	get_application;
-exports.change_etat = 	change_etat;
+exports.patch_application_etat = 	patch_application_etat;
+
