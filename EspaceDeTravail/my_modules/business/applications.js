@@ -11,14 +11,14 @@ applications.add({ 	"id"				:	"00001",
 					"reference_cassini"	:	"Axxxx",
 					"fournisseur"		: new fournisseur.fournisseur(),
 					"configuration" 	: new configuration.esic(),
-					"status"			: new application_etat.inconnu()});
+					"etat"				: new application_etat.inconnu()});
 					
 applications.add({ 	"id"				:	"00002",
 					"nom" 				: "esic",
 					"reference_cassini"	:	"Axxxx",
 					"fournisseur"		: new fournisseur.fournisseur(),
 					"configuration" 	: new configuration.visiocap(),
-					"status"			: new application_etat.inconnu()});
+					"etat"				: new application_etat.inconnu()});
 
 //==================================================
 //Permet d'avoir une liste d'application
@@ -71,7 +71,7 @@ var basic_get_application =
 var change_etat = 
 	function (req, res){
 		element = basic_get_application(req, res);
-		element.status = new application_etat.a_demarrer();
+		element.etat = new application_etat.a_demarrer();
 		res.send(element);		
 };
 	
