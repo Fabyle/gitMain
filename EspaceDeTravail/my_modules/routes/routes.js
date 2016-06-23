@@ -1,6 +1,6 @@
 // Le module de routage des flux http
-var utilisateurs = require("../business/utilisateur"),
-	applications = require("../business/application"),
+var utilisateur_http = require("../http_layer/utilisateur_http"),
+	application_http = require("../http_layer/application_http"),
 	historique = require("./historique");
 
 // ==================================================
@@ -24,7 +24,7 @@ var appRouter = function(app){
 	// ==================================================
 	app.get("/v1/utilisateur_courant",function (req, res){
 		historique.ajouter_une_action(req);
-		utilisateurs.get_courant_http(req,res);
+		utilisateur_http.get_courant_http(req,res);
 	});
 	
 	// ==================================================
@@ -33,7 +33,7 @@ var appRouter = function(app){
 	// ==================================================
 	app.post("/v1/utilisateur_courant",function (req, res){
 		historique.ajouter_une_action(req);
-		utilisateurs.put_courant_http(req,res)
+		utilisateur_http.put_courant_http(req,res)
 	});
 		
 	
@@ -46,7 +46,7 @@ var appRouter = function(app){
 	// http://localhost:3000/v1/applications?nom=esic
 	// ==================================================
 	app.get('/v1/applications',
-			applications.getApplications);
+			application_http.getApplications_http);
 	
 	// ==================================================
 	// Le get applications pour une application en particulier ( mode unitaire )
@@ -54,14 +54,14 @@ var appRouter = function(app){
 	// http://localhost:3000/v1/applications/00001
 	// ==================================================
 	app.get('/v1/applications/:id',
-			applications.get_application);	
+			application_http.get_application_http);	
 	
 	// ==================================================
 	// Le patch pour changer le status d'une application
 	//
 	// ==================================================
 	app.patch('/v1/applications/:id/:etat',
-			applications.change_etat);
+			application_http.change_etat_http);
 	
 }
 
