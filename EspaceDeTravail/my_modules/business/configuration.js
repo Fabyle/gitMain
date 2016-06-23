@@ -13,5 +13,5 @@ function configurationVISIOCAP(){
 	this.log = "c:\visiolog.txt"
 };
 
-exports.configurationESIC = configurationESIC;
-exports.configurationVISIOCAP = configurationVISIOCAP;
+exports.esic = configurationESIC;
+exports.visiocap = configurationVISIOCAP;
