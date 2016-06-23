@@ -1,7 +1,9 @@
 var ArrayList = require('ArrayList'),
 fournisseur = require('./fournisseur'),
 configuration = require('./configuration'),
-application_etat = require('./application_etat');
+application_etat = require('./application_etat'),
+utilisateur = require('./utilisateur'),
+notation = require('./notation');
 
 
 var applications = new ArrayList;
@@ -11,7 +13,8 @@ applications.add({ 	"id"				:	"00001",
 					"reference_cassini"	:	"Axxxx",
 					"fournisseur"		: new fournisseur.fournisseur(),
 					"configuration" 	: new configuration.esic(),
-					"etat"				: new application_etat.inconnu()});
+					"etat"				: new application_etat.inconnu(),
+					"notations"			: new notation.notation(utilisateur.getCourant()) });
 					
 applications.add({ 	"id"				:	"00002",
 					"nom" 				: "esic",

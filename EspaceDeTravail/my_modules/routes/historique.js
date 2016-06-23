@@ -7,7 +7,7 @@ var ArrayList = require('ArrayList');
 
 var historique = new ArrayList(); 
 
-function evenement(req){
+function creer_evenement(req){
 	this.path = req.path;
 	this.query = req.query;
 	this.time_stamp = (new Date()).toLocaleString();
@@ -15,7 +15,7 @@ function evenement(req){
 
 
 function ajouter_une_action(req){
-	evenement = new evenement(req);
+	evenement = new creer_evenement(req);
 	console.log(evenement);
 	historique.add(evenement);	
 }

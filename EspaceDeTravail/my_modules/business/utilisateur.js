@@ -17,19 +17,25 @@ var utilisateurCourant = {
 			"prenom" 	: "Fabien",
 			};
 
+
 // ==================================================
 // le get de l'utilisateur courant
 // ==================================================
-var getCourant = 
+var getCourant = function (){
+	return utilisateurCourant; 
+}
+
+
+var get_courant_http = 
 	function (req, res){		
-		res.send(utilisateurCourant);
+		res.send(getCourant());
 	};
 	
 // ==================================================
 // le post de l'utilisateur courant
 // retourne un 201 - 
 // ==================================================
-var putCourant = 
+var put_courant_http = 
 	function (req, res){
 		console.log(req.headers);
 	 	if(!req.headers.nom || !req.headers.prenom){
@@ -46,5 +52,6 @@ var putCourant =
 // ==================================================
 // Les exports
 // ==================================================	
-exports.getCourant = getCourant
-exports.putCourant = putCourant
+exports.get_courant_http = get_courant_http;
+exports.getCourant = getCourant;
+exports.put_courant_http = put_courant_http;

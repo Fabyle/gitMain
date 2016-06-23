@@ -1,6 +1,6 @@
 // Le module de routage des flux http
-var utilisateurs = require("../business/utilisateurs"),
-	applications = require("../business/applications"),
+var utilisateurs = require("../business/utilisateur"),
+	applications = require("../business/application"),
 	historique = require("./historique");
 
 // ==================================================
@@ -24,16 +24,18 @@ var appRouter = function(app){
 	// ==================================================
 	app.get("/v1/utilisateur_courant",function (req, res){
 		historique.ajouter_une_action(req);
-		utilisateurs.getCourant
+		utilisateurs.get_courant_http(req,res);
 	});
 	
 	// ==================================================
 	// Le post de l'utilisateur courant
 	//
 	// ==================================================
-	app.post("/v1/utilisateur_courant",
-			utilisateurs.putCourant);
-	
+	app.post("/v1/utilisateur_courant",function (req, res){
+		historique.ajouter_une_action(req);
+		utilisateurs.put_courant_http(req,res)
+	});
+		
 	
 	// ==================================================
 	// Le get applications ( mode liste )
