@@ -1,6 +1,7 @@
 // Le module de routage des flux http
 var utilisateurs = require("../business/utilisateurs"),
-	applications = require("../business/applications");
+	applications = require("../business/applications"),
+	historique = require("./historique");
 
 // ==================================================
 // Gestion des requetes http
@@ -13,6 +14,7 @@ var appRouter = function(app){
 	// ================================================== 
 	app.get("/", 
 			function (req, res){
+		historique.ajouter_une_action(req);
 		res.send("Bienvenue sur l'espace de travail");
 	})
 	
@@ -20,8 +22,10 @@ var appRouter = function(app){
 	// Le get de l'utilisateur courant ( utiliser le snake case avec _ )
 	// http://localhost:3000/v1/utilisateur_courant
 	// ==================================================
-	app.get("/v1/utilisateur_courant",
-			utilisateurs.getCourant);
+	app.get("/v1/utilisateur_courant",function (req, res){
+		historique.ajouter_une_action(req);
+		utilisateurs.getCourant
+	});
 	
 	// ==================================================
 	// Le post de l'utilisateur courant
