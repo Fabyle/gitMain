@@ -48,7 +48,14 @@ var appRouter = function(app){
 	// http://localhost:3000/v1/applications/00001
 	// ==================================================
 	app.get('/v1/applications/:id',
-			applications.getApplication);	
+			applications.get_application);	
+	
+	// ==================================================
+	// Le patch pour changer le status d'une application
+	//
+	// ==================================================
+	app.patch('/v1/applications/:id/:etat',
+			applications.change_etat);
 	
 }
 
