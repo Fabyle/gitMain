@@ -1,6 +1,7 @@
 var ArrayList = require('ArrayList'),
 fournisseur = require('./fournisseur'),
-configuration = require('./configuration');
+configuration = require('./configuration'),
+application_status = require('./application_status');
 
 
 var applications = new ArrayList;
@@ -9,17 +10,15 @@ applications.add({ 	"id"				:	"00001",
 					"nom" 				: 	"visiocap",
 					"reference_cassini"	:	"Axxxx",
 					"fournisseur"		: new fournisseur.fournisseur(),
-					"configuration" 	: {
-						"url_ctg"			: 	"http://srvctgrec/wspasserellerec/services/ctg",
-						"url_habilitation"	: 	"http://WSHABil/v3/wshab.asmx",
-						"log"				:	"c:\log.txt"
-					}});
+					"configuration" 	: new configuration.esic(),
+					"status"			: new application_status.inconnu()});
 					
 applications.add({ 	"id"				:	"00002",
 					"nom" 				: "esic",
 					"reference_cassini"	:	"Axxxx",
 					"fournisseur"		: new fournisseur.fournisseur(),
-					"configuration" 	: new configuration.configurationESIC()});
+					"configuration" 	: new configuration.visiocap(),
+					"status"			: new application_status.inconnu()});
 
 //==================================================
 //Permet d'avoir une liste d'application
