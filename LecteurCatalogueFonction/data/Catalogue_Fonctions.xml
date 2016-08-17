@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fct:fonctions xmlns:fct="http://www.systalians.com/esic/fonctions"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.systalians.com/esic/fonctions esic-fonctions.xsd ">
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - Palette outils -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>L0001</id>
+		<libelle>Eptica</libelle>
+		<icone>/icons/fonctions/eptica3.png</icone>
+		<code-action>91013</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>7</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0002</id>
+		<libelle>UR ALLOC</libelle>
+		<icone>/icons/fonctions/logo_UR_alloc_64.png</icone>
+		<code-action>91004</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>2</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0003</id>
+		<libelle>UR ADHPAR</libelle>
+		<icone>/icons/fonctions/logo_UR_adhpar_64.png</icone>
+		<code-action>91005</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>3</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<!--fonction> <id>L0004</id> <libelle>Microsoft Word</libelle> <icone>/icons/fonctions/microsoft_word.png</icone> 
+		<code-action>*</code-action> <technologie xsi:type="fct:TechnologieCmd"> 
+		<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurExterne</commande> 
+		<methode>executer</methode> <param>http://TODO dans configuration-exploitant.properties</param> 
+		</technologie> <espace-prevu>Accueil</espace-prevu> <num-ordre>14</num-ordre> 
+		<persistante>true</persistante> </fonction> <fonction> <id>L0005</id> <libelle>Microsoft 
+		Excel</libelle> <icone>/icons/fonctions/microsoft_excel.png</icone> <code-action>*</code-action> 
+		<technologie xsi:type="fct:TechnologieCmd"> <commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurExterne</commande> 
+		<methode>executer</methode> <param>http://TODO dans configuration-exploitant.properties</param> 
+		</technologie> <espace-prevu>Accueil</espace-prevu> <num-ordre>15</num-ordre> 
+		<persistante>true</persistante> </fonction -->
+	<fonction>
+		<id>L0006</id>
+		<libelle>Convergence</libelle>
+		<icone>/icons/fonctions/cvg2.png</icone>
+		<code-action>91006</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>1</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0007</id>
+		<libelle>PRC Accueil</libelle>
+		<icone>/icons/fonctions/PRCAccueil.png</icone>
+		<code-action>91008</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>4</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0008</id>
+		<libelle>PRC Instruction</libelle>
+		<icone>/icons/fonctions/PRCInstruction.png</icone>
+		<code-action>91004</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>5</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0009</id>
+		<libelle>PRC IA</libelle>
+		<icone>/icons/fonctions/PRCIA.png</icone>
+		<code-action>91004</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionFirefox</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>6</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0010</id>
+		<libelle>Timesquare</libelle>
+		<icone>/icons/fonctions/timeSquare.png</icone>
+		<code-action>91007</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>8</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0011</id>
+		<libelle>SDM</libelle>
+		<icone>/icons/fonctions/SDM.png</icone>
+		<code-action>91013</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>9</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0012</id>
+		<libelle>Mon pilotage</libelle>
+		<icone>/icons/fonctions/SID.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>10</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0013</id>
+		<libelle>Présentation ESIC</libelle>
+		<icone>/icons/fonctions/presentation_ESIC.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>11</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0014</id>
+		<libelle>LiveLink</libelle>
+		<icone>/icons/fonctions/LiveLink.png</icone>
+		<code-action>91013</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>12</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0015</id>
+		<libelle>Ma planète</libelle>
+		<icone>/icons/fonctions/maplanete.png</icone>
+		<code-action>91013</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>13</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0016</id>
+		<libelle>AEL RC</libelle>
+		<icone>/icons/fonctions/ael_rc.png</icone>
+		<code-action>91007</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionFirefox</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>14</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0017</id>
+		<libelle>CUIC</libelle>
+		<icone>/icons/fonctions/cisco-ciuc.png</icone>
+		<code-action>91007</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>15</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0018</id>
+		<libelle>Compétences</libelle>
+		<icone>/icons/fonctions/cisco-competence.png</icone>
+		<code-action>91007</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>16</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0019</id>
+		<libelle>CISCO Agent</libelle>
+		<icone>/icons/fonctions/cisco-agent.png</icone>
+		<code-action>91007</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurProcess</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>17</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0020</id>
+		<libelle>Supervisor</libelle>
+		<icone>/icons/fonctions/cisco-supervisor.png</icone>
+		<code-action>91007</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurProcess</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>18</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0021</id>
+		<libelle>FCT</libelle>
+		<icone>/icons/fonctions/FCT.png</icone>
+		<code-action>91012</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>21</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0022</id>
+		<libelle>LOGAS</libelle>
+		<icone>/icons/fonctions/LOGAS.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>22</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0023</id>
+		<libelle>Gestion des IJ</libelle>
+		<icone>/icons/fonctions/Engrenage.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurProcess</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>23</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0024</id>
+		<libelle>Niveaux de couverture</libelle>
+		<icone>/icons/fonctions/Engrenage.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurProcess</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>24</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0025</id>
+		<libelle>ARPEJ</libelle>
+		<icone>/icons/fonctions/ARPEJ.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>25</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0026</id>
+		<libelle>DOPLI</libelle>
+		<icone>/icons/fonctions/DOPLI.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>26</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0027</id>
+		<libelle>Declics</libelle>
+		<icone>/icons/fonctions/DECLICS.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>27</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>L0028</id>
+		<libelle>TranscapV2</libelle>
+		<icone>/icons/fonctions/transcap.png</icone>
+		<code-action>92001</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Accueil</espace-prevu>
+		<num-ordre>28</num-ordre>
+		<persistante>true</persistante>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - barre d'outils -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0001</id>
+		<libelle>Rechercher</libelle>
+		<icone>recherche-icon_32.png</icone>
+		<code-action>90001</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>F0002</id>
+		<libelle>Presse Papier Groupe</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90002</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<main>com.systalians.bte.esic.portlet.ppg.applicatif.PPGFrame</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0003</id>
+		<libelle>Contact sans rattachement</libelle>
+		<icone>contactsansratt.png</icone>
+		<code-action>90003</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<persistante>true</persistante>
+	</fonction>
+	<fonction>
+		<id>F0004</id>
+		<libelle>Recherche historisée</libelle>
+		<icone>historecherche_32.png</icone>
+		<code-action>90004</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0033</id>
+		<libelle>Recherche réclamations</libelle>
+		<icone>rechrecla.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - CTI -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0017</id>
+		<libelle>Fonction CTI</libelle>
+		<icone>telephone.png</icone>
+		<code-action>90017</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0019</id>
+		<libelle>Fonction CTI appels entrants multiples</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90019</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - EDITIQUE -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0020</id>
+		<libelle>Composition DLS</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionCompositionDLS</commande>
+			<methode>executer</methode>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0021</id>
+		<libelle>Visualisation KSL</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionVisualisationFiligrane</commande>
+			<methode>executer</methode>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0022</id>
+		<libelle>Impression KSL</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionImpressionKSL</commande>
+			<methode>executer</methode>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0024</id>
+		<libelle>Impression KSL</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionImpressionFiligrane</commande>
+			<methode>executer</methode>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - GED -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0030</id>
+		<libelle>Gestion GED</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionGED</commande>
+			<methode>executer</methode>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0044</id>
+		<libelle>Gestion GED</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<main>com.systalians.bte.esic.ged.applicatif.ExportPrcFrame</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - Lanceur Excel -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0032</id>
+		<libelle>Lanceur Excel</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionLanceurExcel</commande>
+			<methode>executer</methode>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+
+	<!-- ************************************************** -->
+	<!-- FONCTION OUTILS - outils du BTE -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F1000</id>
+		<libelle>Arbre des fonctions</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91000</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<!--main>com.systalians.bte.portlet.arbrefonctions.applicatif.ApplicatifArbreFonctions</main -->
+			<main>com.systalians.bte.esic.portlet.arbrefonctions.applicatif.ApplicatifArbreFonctions</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F1001</id>
+		<libelle>Barre d'outils</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91001</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<!--main>com.systalians.bte.portlet.barreoutils.ApplicatifBarreOutils</main -->
+			<main>com.systalians.bte.esic.portlet.barreoutils.applicatif.ApplicatifBarreOutils</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F1002</id>
+		<libelle>Barre d'identification</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91002</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<main>classe</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F1003</id>
+		<libelle>Fonction d'authenfication</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91003</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<main>classe</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION ESPACE CLIENTS -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0005</id>
+		<libelle>Vue 360°</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90005</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0001</niv-rgp>
+		<num-ordre>1000</num-ordre>
+		<ordonnable>false</ordonnable>
+	</fonction>
+	<fonction>
+		<id>F0005b</id>
+		<libelle>Compléments</libelle>
+		<libelle-court>Compléments Vue 360°</libelle-court>
+		<icone>ajout-presse-papier.gif</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0001</niv-rgp>
+		<num-ordre>999</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0012</id>
+		<libelle>Saisie d'un contact</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90012</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>E</type-client>
+		<type-client>P</type-client>
+		<num-ordre>900</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0006</id>
+		<libelle>Ses courriers</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90006</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<num-ordre>800</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0007</id>
+		<libelle>Son dossier GED</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90007</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>E</type-client>
+		<type-client>P</type-client>
+		<type-client>T</type-client>
+		<num-ordre>700</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0008</id>
+		<libelle>Ses réclamations</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>E</type-client>
+		<type-client>P</type-client>
+		<num-ordre>600</num-ordre>
+		<persistante>false</persistante>
+	</fonction>
+	<fonction>
+		<id>F0009</id>
+		<libelle>Ses préférences</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>P</type-client>
+		<type-client>E</type-client>
+		<num-ordre>500</num-ordre>
+	</fonction>
+	<!-- EVOLUTION MAC SIC 1213 -->
+	<!-- Personne physique -->
+	<fonction>
+		<id>F0010</id>
+		<libelle>Détail données administratives</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0001</niv-rgp>
+		<type-client>P</type-client>
+		<type-client>E</type-client>
+		<type-client>B</type-client>
+		<num-ordre>410</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-0</id>
+		<libelle>Mise à jour simplifiée</libelle>
+		<icone>none.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients_Hors_Arbre_Fonctions</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0010-1</id>
+		<libelle>Son identité</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>P</type-client>
+		<num-ordre>415</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-2</id>
+		<libelle>Ses adresses</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>P</type-client>
+		<num-ordre>414</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-3</id>
+		<libelle>Ses téléphones et emails</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>P</type-client>
+		<num-ordre>413</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-4</id>
+		<libelle>Sa situation fiscale</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>P</type-client>
+		<num-ordre>412</num-ordre>
+	</fonction>
+	<!--fonction> <id>F0010-5</id> <libelle>Ses domiciliations bancaires</libelle> 
+		<icone>presse-papiers-32.png</icone> <code-action>*</code-action> <technologie 
+		xsi:type="fct:TechnologieWeb"> <url>http://TODO dans configuration-exploitant.properties</url> 
+		</technologie> <espace-prevu>Clients</espace-prevu> <niv-rgp>R0002</niv-rgp> 
+		<type-client>P</type-client> <num-ordre>411</num-ordre> </fonction> <fonction> 
+		<id>F0010-6</id> <libelle>Associer un SIREN</libelle> <icone>presse-papiers-32.png</icone> 
+		<code-action>*</code-action> <technologie xsi:type="fct:TechnologieWeb"> 
+		<url>http://TODO dans configuration-exploitant.properties</url> </technologie> 
+		<espace-prevu>Clients</espace-prevu> <niv-rgp>R0002</niv-rgp> <type-client>P</type-client> 
+		<num-ordre>410</num-ordre> </fonction -->
+	<!-- Personne morale -->
+	<fonction>
+		<id>F0010-7</id>
+		<libelle>Son identification et activité économique</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>E</type-client>
+		<num-ordre>409</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-8</id>
+		<libelle>Ses adresses</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>E</type-client>
+		<num-ordre>408</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-9</id>
+		<libelle>Ses téléphones et emails</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>E</type-client>
+		<num-ordre>407</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-17</id>
+		<libelle>Son siège social</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>E</type-client>
+		<type-client>B</type-client>
+		<num-ordre>399</num-ordre>
+	</fonction>
+	<!--fonction> <id>F0010-10</id> <libelle>Gérer les domiciliations bancaires</libelle> 
+		<icone>presse-papiers-32.png</icone> <code-action>*</code-action> <technologie 
+		xsi:type="fct:TechnologieWeb"> <url>http://TODO dans configuration-exploitant.properties</url> 
+		</technologie> <espace-prevu>Clients</espace-prevu> <niv-rgp>R0002</niv-rgp> 
+		<type-client>E</type-client> <num-ordre>406</num-ordre> </fonction> <fonction> 
+		<id>F0010-11</id> <libelle>Gérer les tiers</libelle> <icone>presse-papiers-32.png</icone> 
+		<code-action>*</code-action> <technologie xsi:type="fct:TechnologieWeb"> 
+		<url>http://TODO dans configuration-exploitant.properties</url> </technologie> 
+		<espace-prevu>Clients</espace-prevu> <niv-rgp>R0002</niv-rgp> <type-client>E</type-client> 
+		<num-ordre>405</num-ordre> </fonction> <fonction> <id>F0010-12</id> <libelle>Gérer 
+		convention chômage</libelle> <icone>presse-papiers-32.png</icone> <code-action>*</code-action> 
+		<technologie xsi:type="fct:TechnologieWeb"> <url>http://TODO dans configuration-exploitant.properties</url> 
+		</technologie> <espace-prevu>Clients</espace-prevu> <niv-rgp>R0002</niv-rgp> 
+		<type-client>E</type-client> <num-ordre>404</num-ordre> </fonction> <fonction> 
+		<id>F0010-13</id> <libelle>Sortir du contentieux</libelle> <icone>presse-papiers-32.png</icone> 
+		<code-action>*</code-action> <technologie xsi:type="fct:TechnologieWeb"> 
+		<url>http://TODO dans configuration-exploitant.properties</url> </technologie> 
+		<espace-prevu>Clients</espace-prevu> <niv-rgp>R0002</niv-rgp> <type-client>E</type-client> 
+		<num-ordre>403</num-ordre> </fonction -->
+	<!-- Etablissement Mail de Samuel du 03/09/13 devra être actif pour MAD 
+		1213P2 -->
+	<fonction>
+		<id>F0010-14</id>
+		<libelle>Son identification</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>B</type-client>
+		<num-ordre>402</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-15</id>
+		<libelle>Ses adresses</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>B</type-client>
+		<num-ordre>401</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0010-16</id>
+		<libelle>Ses téléphones et emails</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>91009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0002</niv-rgp>
+		<type-client>B</type-client>
+		<num-ordre>400</num-ordre>
+	</fonction>
+	<!-- EVOLUTION MAS SIC 1213 -->
+	<fonction>
+		<id>F0018</id>
+		<libelle>Ses données Web</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionBrowserExterne</commande>
+			<methode>executer</methode>
+			<param>http://TODO dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>E</type-client>
+		<num-ordre>300</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0018-1</id>
+		<libelle>Ses données Web</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>P</type-client>
+		<num-ordre>300</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0011</id>
+		<libelle>Fiche d'indexation</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90011</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<num-ordre>200</num-ordre>
+	</fonction>
+
+	<fonction>
+		<id>F0026</id>
+		<libelle>Ses rejets</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<num-ordre>100</num-ordre>
+	</fonction>
+
+<!-- EVOLUTION MAD SIC 1214 -->
+<!-- Devient fonction outils suite au Test Director 467 qui référence la DIS050042 : FCM - arbre des fonctions -->
+	<fonction>
+		<id>F0045</id>
+		<libelle>Fiche contact mail</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<num-ordre>850</num-ordre>
+	</fonction>
+	<!-- FIN EVOLUTION MAD SIC 1214 -->
+	<fonction>
+		<id>F0029</id>
+		<libelle>CTI</libelle>
+		<icone>telephone.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieSwing">
+			<main>com.systalians.esic.cti.ctiplugin.applicatif.ApplicatifCTI</main>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F1004</id>
+		<libelle>Ajouter au presse-papiers</libelle>
+		<icone>ajout-presse-papier.gif</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionPPG</commande>
+			<methode>executer</methode>
+			<param>renseigné dans configuration-exploitant.properties</param>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<num-ordre>0</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0046</id>
+		<libelle>Son abonnement DF</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90009</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<type-client>P</type-client>
+		<num-ordre>450</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0050</id>
+		<libelle>Bloc note</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<niv-rgp>R0001</niv-rgp>
+		<num-ordre>405</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0051</id>
+		<libelle>Saisie d'une demande interne</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients</espace-prevu>
+		<num-ordre>875</num-ordre>
+	</fonction>
+	<!-- ************************************************** -->
+	<!-- FONCTION ESPACE ACTIONS -->
+	<!-- ************************************************** -->
+	<fonction>
+		<id>F0013</id>
+		<libelle>Gestion collaborative à traiter</libelle>
+		<libelle-court>Gestion Collaborative</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0013-1</id>
+		<libelle>Traitement Gestion collaborative</libelle>
+		<libelle-court>Traitement Gestion Collaborative</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0013-2</id>
+		<libelle>Consultation Gestion collaborative</libelle>
+		<libelle-court>Consultation Gestion Collaborative</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0014</id>
+		<libelle>Bureautique à traiter</libelle>
+		<libelle-court>Bureautique</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90014</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>900</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0014-1</id>
+		<libelle>Traitement Action bureautique</libelle>
+		<libelle-court>Traitement Action bureautique</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0014-2</id>
+		<libelle>Historique echange bureautique</libelle>
+		<libelle-court>Historique echange bureautique</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0015</id>
+		<libelle>Courriers arrivés</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90015</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>800</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0015-1</id>
+		<libelle>Traitement Action courriers arrivés</libelle>
+		<libelle-court>Traitement Action courriers arrivés</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0028</id>
+		<libelle>Rejets à traiter</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>700</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0028-1</id>
+		<libelle>Traitement Action rejets</libelle>
+		<libelle-court>Traitement Action rejet</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>1000</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0016</id>
+		<libelle>Réclamations à traiter</libelle>
+		<libelle-court>Réclamations</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>600</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0016-1</id>
+		<libelle>Traitement reclamation</libelle>
+		<libelle-court>Traitement reclamation</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<num-ordre>601</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0016-2</id>
+		<libelle>Consultation reclamation</libelle>
+		<libelle-court>Consultation reclamation</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90013</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<num-ordre>601</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0034</id>
+		<libelle>Extractions DN à traiter</libelle>
+		<libelle-court>Extractions DN</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90020</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>400</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0034-1</id>
+		<libelle>Traitement Extractions DN</libelle>
+		<libelle-court>Traitement Extractions DN</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>90020</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions_Hors_Arbre_Fonctions</espace-prevu>
+		<num-ordre>400</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0048</id>
+		<libelle>Emails arrivés</libelle>
+		<libelle-court>Emails arrivés</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>300</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0052</id>
+		<libelle>Demande interne à traiter</libelle>
+		<libelle-court>Demande interne</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Actions</espace-prevu>
+		<num-ordre>200</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0052-1</id>
+		<libelle>Demande interne à traiter - visualisation</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<num-ordre>200</num-ordre>
+	</fonction>
+	<fonction>
+		<id>F0052-2</id>
+		<libelle>Demande interne à traiter - traitement</libelle>
+		<libelle-court>Demande interne à traiter</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<num-ordre>200</num-ordre>
+	</fonction>
+	<!-- Barre d'outils Actions -->
+	<fonction>
+		<id>F0035</id>
+		<libelle>Corbeille individuelle</libelle>
+		<icone>corbeilleIndividuelle.png</icone>
+		<code-action>91006</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionActiveX</commande>
+			<methode>executer</methode>
+			<param>XsContextor2.CtxActApp</param>
+			<param>CtxtEvent</param>
+			<param>VUE360_ESIC</param>
+			<param>corbeilleIndividuelle</param>
+			<!-- <param></param> -->
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0036</id>
+		<libelle>Corbeille d'intérim</libelle>
+		<icone>corbeilleInterim.png</icone>
+		<code-action>91006</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionActiveX</commande>
+			<methode>executer</methode>
+			<param>XsContextor2.CtxActApp</param>
+			<param>CtxtEvent</param>
+			<param>VUE360_ESIC</param>
+			<param>corbeilleInterim</param>
+			<!-- <param></param> -->
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0037</id>
+		<libelle>Corbeille de groupe</libelle>
+		<icone>corbeilleGroupe.png</icone>
+		<code-action>91006</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionActiveX</commande>
+			<methode>executer</methode>
+			<param>XsContextor2.CtxActApp</param>
+			<param>CtxtEvent</param>
+			<param>VUE360_ESIC</param>
+			<param>corbeilleGroupe</param>
+			<!-- <param></param> -->
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0038</id>
+		<libelle>Corbeille UR ADHPAR</libelle>
+		<icone>corbeilleURAdhPar.png</icone>
+		<code-action>91005</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionActiveX</commande>
+			<methode>executer</methode>
+			<param>XsContextor2.CtxActApp</param>
+			<param>CtxtEvent</param>
+			<param>VUE360_ESIC</param>
+			<param>corbeilleURAdhPar</param>
+			<!-- <param></param> -->
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0039</id>
+		<libelle>Corbeille UR ALLOC</libelle>
+		<icone>corbeilleURAlloc.png</icone>
+		<code-action>91004</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionActiveX</commande>
+			<methode>executer</methode>
+			<param>XsContextor2.CtxActApp</param>
+			<param>CtxtEvent</param>
+			<param>VUE360_ESIC</param>
+			<param>corbeilleURAlloc</param>
+			<!-- <param></param> -->
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<!-- OUTILS -->
+	<fonction>
+		<id>O0001</id>
+		<libelle>Notification</libelle>
+		<icone>none.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieCmd">
+			<commande>com.systalians.bte.esic.portlet.command.actions.ActionNotification</commande>
+			<methode>executer</methode>
+			<!-- <param></param> -->
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0040</id>
+		<libelle>Recherche actions</libelle>
+		<libelle-court>Actions</libelle-court>
+		<icone>rechercheActionMoa32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+		<estMultiInstance>true</estMultiInstance>
+		<estPleinEcran>true</estPleinEcran>
+	</fonction>
+	<fonction>
+		<id>F0041</id>
+		<libelle>news</libelle>
+		<icone>rechercheActionMoa32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>AccueilNews</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0042</id>
+		<libelle>Actions ESIC</libelle>
+		<icone>none.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients_Hors_Arbre_Fonctions</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0043</id>
+		<libelle>Départ en retraite</libelle>
+		<icone>none.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients_Hors_Arbre_Fonctions</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0047</id>
+		<libelle>Ses téléphones et emails</libelle>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Clients_Hors_Arbre_Fonctions</espace-prevu>
+	</fonction>
+	<fonction>
+		<id>F0049</id>
+		<libelle>Fonction de rapprochement</libelle>
+		<libelle-court>Fonction de rapprochement</libelle-court>
+		<icone>presse-papiers-32.png</icone>
+		<code-action>*</code-action>
+		<technologie xsi:type="fct:TechnologieWeb">
+			<url>http://TODO dans configuration-exploitant.properties</url>
+		</technologie>
+		<espace-prevu>Outils</espace-prevu>
+	</fonction>
+</fct:fonctions>
