@@ -8,14 +8,15 @@ var neo4j = require("../tools/requeteurCypherNeo4J");
  * Fonction de callback basic
  ------------------------------------------------------------------------------*/
 var basicCallback=function (err,data){
-	//console.log (JSON.stringify(data))
+	console.log (JSON.stringify(data))
 	};	
 
 
 var fonctionEcriture = function(mapDeFeuilles){
 	mapDeFeuilles.forEach( function ( feuille, nomFeuille, mapParcourus){
 		feuille.forEach( function (ligne, numeroLigne, mapParcourus2){
-			request = JSON.stringify(ligne).replace(new RegExp('"',"g"),"'");
+			request = JSON.stringify(ligne).replace(new RegExp("'","g"),"_");
+			request = request.replace(new RegExp('"',"g"),"'");
 			request = request.replace(new RegExp("{'","g"),'{');
 			request = request.replace(new RegExp(",'","g"),',');
 			request = request.replace(new RegExp("':","g"),':');
