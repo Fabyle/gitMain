@@ -85,8 +85,6 @@ var excelLinesToObject = function(file_name, callback){
 };
 
 /**------------------------------------------------------------------------------
-* NE FONCTIONNE QUE SI ON A UN EXCEL MONO FEUILLE. 
-* 
 * permet d'obtenir un objet par ligne.
 * Les attributs de l'objet sont les titres des colonnes. 
 * 
@@ -155,7 +153,6 @@ var extractTitleLine = function(mapDeFeuilles, callback){
 	};
 	
 /**------------------------------------------------------------------------------
-* NE FONCTIONNE QUE SI ON A UN EXCEL MONO FEUILLE. 
 * Fonction qui lit un fichier excel et qui en restitue une liste d'objet 
 * dont les attributs sont les colonnes titres du document excel 
 *
