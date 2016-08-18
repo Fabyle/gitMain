@@ -43,7 +43,20 @@ function cleanAll(callback){
 }
 
 /**------------------------------------------------------------------------------
+* Fonction qui permet de nettoyer un texte avant que ce texte soit intégré dans une requete 
+------------------------------------------------------------------------------*/
+function prepareText(texte){
+	texte = texte.replace(new RegExp("'","g"),"_");
+	texte = texte.replace(new RegExp('"',"g"),"'");
+	texte = texte.replace(new RegExp("{'","g"),'{');
+	texte = texte.replace(new RegExp(",'","g"),',');
+	texte = texte.replace(new RegExp("':","g"),':');
+	return texte; s
+}
+
+/**------------------------------------------------------------------------------
 * Les Exports
 ------------------------------------------------------------------------------*/
 exports.cypher = cypher;
 exports.cleanAll = cleanAll;
+exports.prepareText = prepareText;
