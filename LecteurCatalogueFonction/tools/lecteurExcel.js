@@ -51,24 +51,35 @@ var excelLinesToObject = function(file_name, callback){
 	
 	excelToObject(file_name,function(resultat){
 		
-		mapResultat = new Map();
+		mapDeFeuille = new Map();		
+		
 		
 		resultat.forEach(function(each){
+			
+			// on alimente la map de feuille avec des map de ligne. 
+			if(mapDeFeuille.has(each.feuille)){
+				mapDeLigne = mapDeFeuille.get(each.feuille);
+			}
+			else {
+				mapDeLigne = new Map();
+				mapDeFeuille.set(each.feuille, mapDeLigne);
+			}
+				
 			// on verifie que l'objet est déjà connu. 
-			if (mapResultat.has(each.ligne)){
-				objet = mapResultat.get(each.ligne);				
+			if (mapDeLigne.has(each.ligne)){
+				objet = mapDeLigne.get(each.ligne);				
 			}
 			else {
 				objet = new Object();
 				objet.feuille = each.feuille;
 				objet.ligne = each.ligne;
-				mapResultat.set(each.ligne, objet);
+				mapDeLigne.set(each.ligne, objet);
 			}
 			objet[each.colonne]=each.valeur;
 			
 		})
-		//console.log(mapResultat);
-		callback(mapResultat);
+		//console.log(mapDeFeuille);
+		callback(mapDeFeuille);
 	});
 	
 };
@@ -84,37 +95,63 @@ var excelLinesToObject = function(file_name, callback){
 	extractTitleLine(mapResultat);
 });
 * ------------------------------------------------------------------------------*/
-var extractTitleLine = function(mapResultatBefore, callback){
-	titres = mapResultat.get('1');
-	var mapResultatAfter = new Map();
+var extractTitleLine = function(mapDeFeuilles, callback){
 	
-	mapResultat.forEach(function(each){		
-		if (each !== titres) {
-			// on repose un nouvel objet dans la nouvelle mapResultat		
-			if (mapResultatAfter.has(each.ligne)){
-				nouvelObjet = mapResultatAfter.get(each.ligne);				
-			}
-			else {
-				nouvelObjet = new Object();
-				mapResultatAfter.set(each.ligne, nouvelObjet);
-			}
-			for (colonne in each){
-				// retrait des blancs
-				if (titres[colonne] !== undefined && 
-						colonne !== "feuille" &&
-						colonne !== "ligne"){
-					var nouvelle_variable = titres[colonne].trim();
-					nouvelle_variable = nouvelle_variable.replace(/[\u00E9]/g,'e');
-					nouvelle_variable = nouvelle_variable.replace(/[^a-zA-Z0-9]/g,'_');				
-					nouvelObjet[nouvelle_variable] = each[colonne] ;
-				}
-			}
+	//--------------------- cible du stockage du résultat
+	//--- un map avec des feuilles, des lignes, et des objets représentant les lignes. 
+	var mapDeFeuillesAfter  = new Map();
+	
+	//--------------------- on balaye la map de feuilles fournit	
+	mapDeFeuilles.forEach( function ( feuille, nomFeuille, mapParcourus){
+		
+		//--------------------- on créer  une page c.a.d une map de ligne  
+		if(mapDeFeuillesAfter.has(nomFeuille)){
+			map_de_ligne_nouvelle = mapDeFeuillesAfter.get(nomFeuille);
+		}
+		else {
+			map_de_lignes_nouvelle = new Map();
+			mapDeFeuillesAfter.set(nomFeuille, map_de_lignes_nouvelle);
+		}
+		
+		//--------------------- on récupère le titre de la page courante
+		contenuDeLaFeuille = feuille;
+		ligne_de_titre = contenuDeLaFeuille.get('1');
+		
+		//--------------------- on lit la page courante		
+		contenuDeLaFeuille.forEach(function(objet_ligne){
+			
+			//--------------------- on ne lit que ce qui n'est pas le titre
+			if (objet_ligne !== ligne_de_titre) {
 				
-			//console.log(nouvelObjet);
-			
-			
-		}})
-		callback(mapResultatAfter.values());
+				
+				//--------------------- on construit un nouvel objet que l'on met à la bonne ligne	
+				if (map_de_lignes_nouvelle.has(objet_ligne.ligne)){
+					nouvelObjet = map_de_lignes_nouvelle.get(objet_ligne.ligne);				
+				}
+				else {
+					nouvelObjet = new Object();
+					map_de_lignes_nouvelle.set(objet_ligne.ligne, nouvelObjet);
+				}
+				
+				//--------------------- on explore la ligne source pour construire l'objet cible
+				//--------------------- en appliquant les colonnes de titre pour attributs. 
+				for (colonne in objet_ligne){
+					if (ligne_de_titre[colonne] !== undefined && 
+							colonne !== "feuille" &&
+							colonne !== "ligne"){
+						var nouvelle_variable = ligne_de_titre[colonne].trim();
+						nouvelle_variable = nouvelle_variable.replace(/[\u00E9]/g,'e');
+						nouvelle_variable = nouvelle_variable.replace(/[^a-zA-Z0-9]/g,'_');				
+						nouvelObjet[nouvelle_variable] = objet_ligne[colonne] ;						
+					}
+				}
+				}
+		})
+		//--------------------- on alimente les feuilles avec la nouvelle feuille créer. 
+		mapDeFeuillesAfter.set(nomFeuille,map_de_lignes_nouvelle);
+		})	
+		
+		callback(mapDeFeuillesAfter);
 	};
 	
 /**------------------------------------------------------------------------------
@@ -138,12 +175,14 @@ var excelLinesToObjectBasedOnTitle = function( filename, callback){
 //});
 
 //excelLinesToObject("../data/validationMOA.xlsx",function(mapResultat){
-//	extractTitleLine(mapResultat);
+//	extractTitleLine(mapResultat,function(mapResultatAfter){
+//		console.log(mapResultatAfter);
+//	});
 //});
 
-//excelLinesToObjectBasedOnTitle("../data/validationMOA.xlsx",function(resultat){
-//	console.log(resultat);
-//});
+excelLinesToObjectBasedOnTitle("../data/validationMOA.xlsx",function(resultat){
+	console.log(resultat);
+});
 
 /**------------------------------------------------------------------------------
 * Les exports
