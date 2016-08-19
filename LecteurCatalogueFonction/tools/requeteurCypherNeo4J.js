@@ -4,7 +4,7 @@
  */
 var r = require("request");
 
-
+// 127.0.0.1 en local 
 var txtUrl = "http://localhost:7474/db/data/transaction/commit";
 var username = "neo4j";
 var password = "snoopy007";
@@ -15,6 +15,7 @@ var auth ="Basic "+ new Buffer(username+":"+password).toString('base64');
 ------------------------------------------------------------------------------*/
 function cypher(query,params,cb)
 	{
+	//console.log("cypher");
 	r.post({
 		uri:txtUrl, 
 		headers : {
@@ -31,6 +32,7 @@ function cypher(query,params,cb)
 * Fonction pour envoyer des ordre de nettoyage pour NEO4J
 ------------------------------------------------------------------------------*/
 function cleanAll(callback){
+	console.log('cleanAll');
 	cypher('MATCH ()-[r]-() DELETE r',null,
             function(){
       console.log('Nettoyage des liens'); 

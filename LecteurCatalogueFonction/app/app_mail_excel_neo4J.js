@@ -30,9 +30,13 @@ var fonctionEcriture = function(mapDeFeuilles,callback){
 				request ="create (f:emetteur { nom:'"+ligne.De___nom_+"'}) ";				
 				console.log(request);
 				neo4j.cypher(request,null,function(err,data){});
-				request ="create (s:objet { texte:'"+neo4j.prepareText(ligne.Objet)+"'})";
-				console.log(request);
-				neo4j.cypher(request,null,function(err,data){});
+				
+				if (ligne.Objet !== undefined){
+					request ="create (s:objet { texte:'"+neo4j.prepareText(ligne.Objet)+"'})";
+					console.log(request);
+					neo4j.cypher(request,null,function(err,data){});
+				}
+				
 				}			
 			});	
 		})
@@ -53,7 +57,7 @@ var fonctionFaireDesLiens = function(mapDeFeuilles){
 			
 			for (colonne in ligne){
 				if (ligne.Objet !== undefined ){
-					requete = "MATCH (f) (s) where " +
+					requete = "MATCH (f),(s) where " +
 					"f:emetteur and "+
 					"f.nom = '"+ligne.De___nom_+"' and "+
 					"s:objet and "+

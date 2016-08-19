@@ -23,7 +23,7 @@ var fonctionEcriture = function(mapDeFeuilles,callback){
 		feuille.forEach( function (ligne, numeroLigne, mapParcourus2){
 			request = neo4j.prepareText(JSON.stringify(ligne));
 			request =" create (f:"+nomFeuille+" "+request+")";			
-			//console.log(request);
+			console.log(request);
 			neo4j.cypher(request,null,function(err,data){
 				
 			});	
@@ -39,7 +39,7 @@ var fonctionEcriture = function(mapDeFeuilles,callback){
 * Les liens sont fait dans les deux directions. 
 ------------------------------------------------------------------------------*/
 var fonctionFaireDesLiens = function(mapDeFeuilles){
-	console.log("console.log(requete);");
+	
 	mapDeFeuilles.forEach( function ( feuille, nomFeuille, mapParcourus){
 		feuille.forEach( function (ligne, numeroLigne, mapParcourus2){
 			
