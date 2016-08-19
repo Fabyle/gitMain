@@ -177,9 +177,9 @@ var excelLinesToObjectBasedOnTitle = function( filename, callback){
 //	});
 //});
 
-excelLinesToObjectBasedOnTitle("../data/validationMOA.xlsx",function(resultat){
-	console.log(resultat);
-});
+//excelLinesToObjectBasedOnTitle("../data/validationMOA.xlsx",function(resultat){
+//	console.log(resultat);
+//});
 
 /**------------------------------------------------------------------------------
 * Les exports
