@@ -21,22 +21,26 @@ var basicCallback=function (err,data){
 var fonctionEcriture = function(mapDeFeuilles,callback){
 	mapDeFeuilles.forEach( function ( feuille, nomFeuille, mapParcourus){
 		console.log("fonctionEcriture");
-		var deja_vu = new Array;
+		var deja_vu_emetteur = new Array;
+		var deja_vu_sujet = new Array;
 		feuille.forEach( function (ligne, numeroLigne, mapParcourus2){
 			
-			if ( deja_vu.indexOf(ligne.De___nom_) === -1)
+			if ( deja_vu_emetteur.indexOf(ligne.De___nom_) === -1)
 				{
-				deja_vu.push(ligne.De___nom_);
+				deja_vu_emetteur.push(ligne.De___nom_);
 				request ="create (f:emetteur { nom:'"+ligne.De___nom_+"'}) ";				
 				console.log(request);
 				neo4j.cypher(request,null,function(err,data){});
-				
-				if (ligne.Objet !== undefined){
-					request ="create (s:objet { texte:'"+neo4j.prepareText(ligne.Objet)+"'})";
+				}
+			if (ligne.Objet !== undefined){
+				sujet = neo4j.prepareText(ligne.Objet);
+				if ( deja_vu_sujet.indexOf(sujet) === -1)
+				{
+					deja_vu_sujet.push(sujet);
+					request ="create (s:objet { texte:'"+sujet+"'})";
 					console.log(request);
 					neo4j.cypher(request,null,function(err,data){});
-				}
-				
+					}				
 				}			
 			});	
 		})
@@ -55,8 +59,7 @@ var fonctionFaireDesLiens = function(mapDeFeuilles){
 	mapDeFeuilles.forEach( function ( feuille, nomFeuille, mapParcourus){
 		feuille.forEach( function (ligne, numeroLigne, mapParcourus2){
 			
-			for (colonne in ligne){
-				if (ligne.Objet !== undefined ){
+			if (ligne.Objet !== undefined ){
 					requete = "MATCH (f),(s) where " +
 					"f:emetteur and "+
 					"f.nom = '"+ligne.De___nom_+"' and "+
@@ -66,9 +69,6 @@ var fonctionFaireDesLiens = function(mapDeFeuilles){
 					console.log(requete);
 					neo4j.cypher(requete,null,basicCallback);
 				}
-				
-			}
-			
 			
 		})
 	})

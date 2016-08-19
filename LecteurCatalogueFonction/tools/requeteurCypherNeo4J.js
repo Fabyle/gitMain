@@ -47,13 +47,19 @@ function cleanAll(callback){
 /**------------------------------------------------------------------------------
 * Fonction qui permet de nettoyer un texte avant que ce texte soit intégré dans une requete 
 ------------------------------------------------------------------------------*/
-function prepareText(texte){
+function prepareTextForJSON(texte){
 	texte = texte.replace(new RegExp("'","g"),"_");
 	texte = texte.replace(new RegExp('"',"g"),"'");
 	texte = texte.replace(new RegExp("{'","g"),'{');
 	texte = texte.replace(new RegExp(",'","g"),',');
 	texte = texte.replace(new RegExp("':","g"),':');
-	return texte; s
+	return texte; 
+}
+
+
+function prepareText(texte){
+	texte = texte.replace(/[^a-zA-Z0-9]/g,'_');		
+	return texte; 
 }
 
 /**------------------------------------------------------------------------------
@@ -61,4 +67,5 @@ function prepareText(texte){
 ------------------------------------------------------------------------------*/
 exports.cypher = cypher;
 exports.cleanAll = cleanAll;
+exports.prepareTextForJSON = prepareTextForJSON;
 exports.prepareText = prepareText;
