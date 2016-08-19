@@ -21,7 +21,7 @@ var basicCallback=function (err,data){
 var fonctionEcriture = function(mapDeFeuilles,callback){
 	mapDeFeuilles.forEach( function ( feuille, nomFeuille, mapParcourus){
 		feuille.forEach( function (ligne, numeroLigne, mapParcourus2){
-			request = neo4j.prepareText(JSON.stringify(ligne));
+			request = neo4j.prepareTextForJSON(JSON.stringify(ligne));
 			request =" create (f:"+nomFeuille+" "+request+")";			
 			console.log(request);
 			neo4j.cypher(request,null,function(err,data){
@@ -47,9 +47,9 @@ var fonctionFaireDesLiens = function(mapDeFeuilles){
 				requete = "MATCH (n),(m) where " +
 						"NOT n:"+nomFeuille+" and "+
 						"m:"+nomFeuille+" and "+
-						"n."+neo4j.prepareText(colonne)+" = '"+neo4j.prepareText(ligne[colonne])+"' and " +
-						"m."+neo4j.prepareText(colonne)+" = '"+neo4j.prepareText(ligne[colonne])+"' " +
-						"create (m)-[r:"+nomFeuille+"_"+neo4j.prepareText(colonne)+"]->(n) "
+						"n."+neo4j.prepareTextForJSON(colonne)+" = '"+neo4j.prepareTextForJSON(ligne[colonne])+"' and " +
+						"m."+neo4j.prepareTextForJSON(colonne)+" = '"+neo4j.prepareTextForJSON(ligne[colonne])+"' " +
+						"create (m)-[r:"+nomFeuille+"_"+neo4j.prepareTextForJSON(colonne)+"]->(n) "
 						"return n, m ";
 				//console.log(requete);
 				neo4j.cypher(requete,null,basicCallback);
