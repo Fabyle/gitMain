@@ -7,7 +7,7 @@ var r = require("request");
 // 127.0.0.1 en local 
 var txtUrl = "http://localhost:7474/db/data/transaction/commit";
 var username = "neo4j";
-var password = "***REMOVED***";
+var password = "snoopy007";
 var auth ="Basic "+ new Buffer(username+":"+password).toString('base64');
 
 /**------------------------------------------------------------------------------

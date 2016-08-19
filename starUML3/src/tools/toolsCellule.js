@@ -20,7 +20,7 @@ stringify = require('csv-stringify');
 var connexion = mysql.createConnection({
 	host : 'localhost',
 	user : 'root',
-	password : '***REMOVED***',
+	password : 'snoopy007',
 	database : 'base_organisation'
 });
 
