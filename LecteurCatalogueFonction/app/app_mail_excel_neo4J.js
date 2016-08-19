@@ -77,7 +77,7 @@ var fonctionFaireDesLiens = function(mapDeFeuilles){
 
 
 // le script de lancement
-excel.excelLinesToObjectBasedOnTitle("../data/mail.xlsx",function(mapDeFeuilles){
+excel.excelLinesToObjectBasedOnTitle("../notcommit/mail.xlsx",function(mapDeFeuilles){
 	neo4j.cleanAll(function(){
 		fonctionEcriture(mapDeFeuilles, function(){
 			fonctionFaireDesLiens(mapDeFeuilles);
