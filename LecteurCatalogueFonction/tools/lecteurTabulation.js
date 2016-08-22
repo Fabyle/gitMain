@@ -4,27 +4,36 @@
 var fs = require('fs');
 var readline = require('readline');
 
-// un petit commentaire
+var lireTabulation = function (file_name,callback){
+	
+	var liste = new Array;
 
-var liste = new Array;
+	rl = readline.createInterface({
+			//input: fs.createReadStream(file_name),
+			input: fs.createReadStream("../notcommit/mail.txt"),
+			terminal: false	});
+	
+	rl.on('line', function(line){
+	
+		var data = line.split("\t");
+		var mail = new Object;
+		mail.de = data[0];
+		mail.Cc = data[1];
+		mail.Cci = data[2];
+		// 3 est 
+		mail.objet = data[4];
+		liste.push(mail);
+		//console.log(mail);
+	});
+	
+	rl.on('close',function(){
+		console.log(liste);		
+		callback(liste);
+	})
+	
+}
 
-readline.createInterface({
-	input: fs.createReadStream("../notcommit/mail.txt"),
-	terminal: false
-}).on('line', function(line){
-	
-	
-	var data = line.split("\t");
-	var objet = new Object;
-	objet.de = data[0];
-	objet.Cc = data[1];
-	objet.Cci = data[2];
-	objet.Objet = data[3];
-	
-	console.log('Line :'+ objet.Cc);
-	
-	liste.push(objet);
-	
-});
+
+exports.lireTabulation = lireTabulation;
 
 
